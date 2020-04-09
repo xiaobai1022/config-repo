@@ -13,13 +13,7 @@ spring:
     port: 5672
     username: xiaobai
     password: 1022
-    listener:
-      direct:
-        retry:
-          enabled: true
-      simple:
-        retry:
-          enabled: true
+   
 env: test4
 girls:
     name: lili
