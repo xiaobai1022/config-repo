@@ -1,1 +1,18 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1/springcloud_sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+  rabbitmq:
+    host: 192.168.211.129
+    port: 5672
+    username: xiaobai
+    password: 1022
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 
